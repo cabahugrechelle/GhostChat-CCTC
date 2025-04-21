@@ -1,0 +1,28 @@
+nav{
+    position: fixed;
+    z-index: 1;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+ul li{
+    margin: 20px;
+}
+
+li a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #a10202;
+}
+
+li a:hover{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #f55050;
+}
